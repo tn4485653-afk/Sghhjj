@@ -272,7 +272,7 @@ Tạo bởi: {}""".format(code, time_str, 0, max_uses, name))
  Tạo cho mọi người 
  => /5 
  
- lag squads""")
+ 
     if type is None: return False
     time.sleep(1)
     self._bot.reply(cid, type, """[B][c]
