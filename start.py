@@ -271,7 +271,7 @@ Tạo bởi: {}""".format(code, time_str, 0, max_uses, name))
  
  Tạo cho mọi người 
  => /5 
- 
+ """)
  
     if type is None: return False
     time.sleep(1)
