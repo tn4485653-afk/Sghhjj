@@ -326,8 +326,8 @@ Tạo bởi: {}""".format(code, time_str, 0, max_uses, name))
    #/all AK47
    #/all rd   |   random hd lv7
 
---------------------------------------
-#\nTikTоk: _""")
+#--------------------------------------
+#TikTоk: ___
 
    elif (message).startswith("/e"):
      value = message.split(":")
