@@ -267,7 +267,10 @@ Tạo bởi: {}""".format(code, time_str, 0, max_uses, name))
    elif message.startswith(("/start", "/help")):
     time.sleep(0.3)
     self._bot.reply(cid, type, """
- => /5
+  /5
+  /vaodoi [team code]
+  /all rd
+  /all [Emote 1 đến 409]
  
  Tạo cho mọi người 
  => /5 
@@ -305,7 +308,7 @@ Tạo bởi: {}""".format(code, time_str, 0, max_uses, name))
     payload = json.dumps({"StickerStr": "[1=1200000001-14]", "type": "Sticker"})
     self.sock39801.send(self._bot.send_object(payload, cid, type))
 
-   elif message.startswith("/js"):
+   elif message.startswith("/vaodoi"):
     if self.rstatus[0] not in [0, 4]: self._bot.reply(cid, type, "[B][c]Có người khác cũng đang dùng lệnh này, vui lòng chờ một chút rồi sử dụng lại"); return
     parts = message.replace("/js", "").replace(":", " ").split()
     if len(parts) < 1 or not parts[0].isdigit():
